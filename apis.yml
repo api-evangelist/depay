@@ -1,7 +1,13 @@
 aid: depay
 name: Depay
-description: Depay is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Depay (Depayments S.A.) is a Latin American cross-border payment infrastructure
+  company that connects banks, wallets, and fintechs to the region's instant payment
+  rails through a single API integration, enabling real-time international payments
+  with settlement in local currency. Depay bridges interoperability across PIX (Brazil),
+  Transferencias 3.0 (Argentina), Bre-B (Colombia), QR BCR (Peru), and QR BCB (Bolivia),
+  and offers QR-code collection products for online and in-person checkout. Founded
+  in Buenos Aires and backed by Techstars (Payments Powered by Stellar and MoneyGram),
+  the company raised a $4M round to expand its real-time payment network across LATAM.
 url: https://raw.githubusercontent.com/api-evangelist/depay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://depay.us/wp-content/uploads/2026/06/logo-depay.svg
 tags:
 - Company
+- Payments
+- Cross-Border Payments
+- Fintech
+- Instant Payments
+- Latin America
+- QR Payments
+- Payment Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/depay-domain-security.yml
+- type: LLMsTxt
+  url: llms/depay-llms.txt
 - type: Website
-  url: https://depayapp.com/
+  url: https://depay.us/en/
+- type: Blog
+  url: https://depay.us/en/blog/
+- type: Login
+  url: https://dashboard.depay.us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/depay-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

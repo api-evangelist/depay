@@ -1,0 +1,21 @@
+{
+  "repo": "depay",
+  "feeds": [
+    {
+      "source": "https://depay.us/feed/",
+      "feed_url": "https://depay.us/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://depay.us/en/",
+      "feed_url": "https://depay.us/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 5,
+  "fetched": "2026-07-25T15:00:33Z"
+}
